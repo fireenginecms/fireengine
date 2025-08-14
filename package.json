@@ -1,5 +1,5 @@
 {
-  "name": "fireengine",
+  "name": "fireenginecms",
   "version": "0.0.1",
   "description": "Self-hosted Firebase CMS with automatic schema detection and admin UI generation",
   "main": "index.js",

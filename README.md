@@ -5,14 +5,14 @@ Self-hosted Firebase CMS with automatic schema detection and admin UI generation
 ## Installation
 
 ```bash
-npm install fireengine
+npm install fireenginecms
 ```
 
 ## Quick Start
 
 ```javascript
 const express = require('express');
-const fireengine = require('fireengine');
+const fireengine = require('fireenginecms');
 
 const app = express();
 

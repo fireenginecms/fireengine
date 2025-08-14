@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const express = require('express');
 const app = express();
-const fireengine = require('fireengine');
+const fireengine = require('fireenginecms');
 const port = process.env.FIREENGINE_PORT || process.env.PORT || 3001;
 
 const renderFullName = ({ name, value, label }) => [
