@@ -1,6 +1,6 @@
 {
   "name": "fireenginecms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Self-hosted Firebase CMS with automatic schema detection and admin UI generation",
   "main": "index.js",
   "types": "index.d.ts",
