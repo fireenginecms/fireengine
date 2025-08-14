@@ -1,0 +1,61 @@
+FireEngine License Agreement
+
+Copyright (c) 2025 FireEngine Team. All rights reserved.
+
+This software is dual-licensed under a freemium model:
+
+## FREE TIER
+Free tier includes:
+- Basic content management
+- Email/password authentication
+- Automatic schema detection
+- Single user access
+
+## PRO TIER
+Advanced features require a Pro license:
+- Additional authentication methods (Google, Microsoft, GitHub, Facebook, Apple, Phone, SAML, OIDC)
+- Custom roles and permissions
+- Visual schema editor (GUI)
+- Unlimited users
+
+## LICENSE TERMS
+
+### Free Tier License
+Permission is granted to use the free tier features at no cost, including commercial use, subject to the following conditions:
+1. Attribution to FireEngine must be maintained in the software
+2. No warranty is provided for free tier usage
+
+### Pro Tier License
+Using Pro features requires a valid Pro subscription.
+1. Each subscription covers one production deployment
+2. Subscription provides access to Pro features and support
+3. License is valid while subscription is active
+4. Commercial redistribution is prohibited
+
+### General Terms
+1. This software is provided "as is" without warranty of any kind
+2. The copyright holder is not liable for any damages arising from use
+3. Reverse engineering or decompilation is prohibited
+4. License terms may be updated with notice
+
+## ACTIVATION
+
+### Free Tier
+Free tier features are available immediately upon installation.
+
+### Pro Tier
+Pro features are activated directly through the FireEngine admin panel:
+1. Deploy FireEngine and access your admin panel
+2. Navigate to Settings > Account in your admin interface
+3. Click "Upgrade to Pro" to purchase a subscription
+4. Pro features unlock automatically after payment
+5. License is managed entirely within your admin panel
+
+## SUPPORT
+
+- Community support via GitHub issues
+- Documentation: https://fireengine.dev/docs
+
+For licensing questions, contact: licensing@fireengine.dev
+
+Last updated: January 2025
