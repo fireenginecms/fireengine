@@ -36,6 +36,41 @@ const renderFullName = ({ name, value, label }) => [
   }
 ]
 
+const renderFullNameOutput = ({ name, value, label }) => {
+  return function render() {
+    if (!value || value.trim() === '') {
+      return '<span style="color: #999; font-style: italic;">No name provided</span>';
+    }
+    
+    const [first, last] = value.split(' ');
+    const firstName = first || '';
+    const lastName = last || '';
+    
+    return `
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <div style="
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          color: white;
+          border-radius: 50%;
+          width: 32px;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          font-size: 12px;
+        ">
+          ${firstName.charAt(0).toUpperCase()}${lastName.charAt(0).toUpperCase()}
+        </div>
+        <div>
+          <div style="font-weight: 500; color: #333;">${value}</div>
+          ${firstName && lastName ? `<div style="font-size: 12px; color: #666;">First: ${firstName}, Last: ${lastName}</div>` : ''}
+        </div>
+      </div>
+    `;
+  };
+};
+
 app.use('/', fireengine({
   adminCredentials: require('./.google_credentials.json'),
   webappConfig: require('./.webapp_config.json'),
@@ -44,6 +79,7 @@ app.use('/', fireengine({
       extends: "string",
       label: "Double Input",
       renderInput: renderFullName,
+      renderOutput: renderFullNameOutput,
     }
   },
   schemaOverrides: {
