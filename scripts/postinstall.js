@@ -27,8 +27,8 @@ if (!fs.existsSync(installationFile)) {
   fs.writeFileSync(installationFile, JSON.stringify(installation, null, 2));
 }
 
-console.log('📚 Documentation: https://fireengine.dev/docs');
-console.log('💳 Purchase a license: https://fireengine.dev/#pricing');
+console.log('📚 Documentation: https://www.fireengine.dev/docs');
+console.log('💳 Purchase a license: https://www.fireengine.dev/#pricing');
 console.log('❓ Support: support@fireengine.dev');
 console.log('');
 console.log('⚡ Get started: Check the examples/ folder for setup instructions');
