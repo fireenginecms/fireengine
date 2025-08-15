@@ -33,9 +33,9 @@ app.use('/admin', fireengine({
 app.listen(3000);
 ```
 
-## Environment Variables
+## Configuration
 
-All FireEngine runtime environment variables use the `FIREENGINE_` prefix:
+FireEngine can be configured either through code (in your application) or environment variables - choose what suits your development workflow. All FireEngine runtime environment variables use the `FIREENGINE_` prefix:
 
 ```bash
 FIREENGINE_FIREBASE_PROJECT_ID=your-project-id  
