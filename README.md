@@ -5,11 +5,11 @@ Self-hosted Firebase CMS with automatic schema detection and admin UI generation
 ## Features
 
 - ⚡ Automatic schema detection from your Firestore collections
-- 🔒 Self-hosted on your own infrastructure
+- 🌐 Self-hosted on your own infrastructure
 - 👥 Role-based access control with granular permissions
 - 🎨 Schema customization via code configuration
-- 🌐 Multiple authentication methods
-- 📱 Responsive admin interface with modern Material UI
+- 🔒 Multiple authentication methods
+- 🎛️ Customizable admin interface
 
 ## Installation
 
