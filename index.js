@@ -8,10 +8,6 @@ module.exports = function(config = {}) {
   // No license validation needed in npm package
   // License validation happens server-side via Stripe API calls
   
-  if (process.env.NODE_ENV === 'production') {
-    console.log('🔥 FireEngine: License validation handled by backend');
-  }
-  
   return originalModule(config);
 };
 
