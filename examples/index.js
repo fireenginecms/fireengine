@@ -71,7 +71,8 @@ const renderFullNameOutput = ({ name, value, label }) => {
   };
 };
 
-app.use('/', fireengine({
+app.use('/', fireengine(
+  {
   adminCredentials: require('./.google_credentials.json'),
   webappConfig: require('./.webapp_config.json'),
   customFields: {
@@ -104,6 +105,7 @@ app.use('/', fireengine({
       ]
     },
   }
-}));
+}
+));
 
 app.listen(port, () => { console.log(`Example app listening at http://localhost:${port}`) });

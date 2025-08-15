@@ -35,7 +35,7 @@ app.listen(3000);
 
 ## Configuration
 
-FireEngine can be configured either through code (in your application) or environment variables - choose what suits your development workflow. All FireEngine runtime environment variables use the `FIREENGINE_` prefix:
+FireEngine can be configured either through code (in your application) or environment variables - choose what suits your development workflow. When using environment variables exclusively, the config object becomes optional. All FireEngine runtime environment variables use the `FIREENGINE_` prefix:
 
 ```bash
 FIREENGINE_FIREBASE_PROJECT_ID=your-project-id  
@@ -94,6 +94,16 @@ const fireengine = require('fireenginecms');
 
 const app = express();
 app.use('/', fireengine(config));
+app.listen(3000);
+```
+
+**Using Environment Variables Only:**
+```javascript
+const express = require('express');
+const fireengine = require('fireenginecms');
+
+const app = express();
+app.use('/', fireengine()); // Config object is optional when using env vars
 app.listen(3000);
 ```
 
