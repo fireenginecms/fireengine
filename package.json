@@ -27,14 +27,12 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "peerDependencies": {
-    "firebase-admin": ">=11.0.0"
-  },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.27.4",
     "compose-middleware": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
+    "firebase-admin": "^13.4.0",
     "multer": "^2.0.1",
     "punycode": "2.3.1",
     "uuid": "^11.1.0"
