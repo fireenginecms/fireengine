@@ -1,6 +1,6 @@
 {
   "name": "fireenginecms",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Self-hosted Firebase CMS with automatic schema detection and admin UI generation",
   "main": "index.js",
   "types": "index.d.ts",
@@ -33,7 +33,7 @@
     "cors": "^2.8.5",
     "firebase-admin": "^13.4.0",
     "multer": "^2.0.1",
-    "punycode": "2.3.1",
+    "punycode.js": "^2.3.1",
     "uuid": "^11.1.0"
   },
   "optionalDependencies": {
@@ -52,5 +52,15 @@
   ],
   "scripts": {
     "postinstall": "node scripts/postinstall.js"
+  },
+  "resolutions": {
+    "punycode": "npm:punycode.js@^2.3.1",
+    "whatwg-url": "^9.0.0",
+    "tr46": "^4.0.0"
+  },
+  "overrides": {
+    "punycode": "npm:punycode.js@^2.3.1",
+    "whatwg-url": "^9.0.0",
+    "tr46": "^4.0.0"
   }
 }
