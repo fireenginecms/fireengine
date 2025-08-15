@@ -38,7 +38,6 @@ app.listen(3000);
 All FireEngine runtime environment variables use the `FIREENGINE_` prefix:
 
 ```bash
-FIREENGINE_DOMAIN=yourdomain.com
 FIREENGINE_FIREBASE_PROJECT_ID=your-project-id  
 FIREENGINE_FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----..."
 FIREENGINE_FIREBASE_CLIENT_EMAIL=firebase-adminsdk-abc123@project.iam.gserviceaccount.com

@@ -106,4 +106,4 @@ app.use('/', fireengine({
   }
 }));
 
-app.listen(port, () => { console.log(`Example app listening at http://${process.env.FIREENGINE_DOMAIN || 'localhost'}:${port}`) });
+app.listen(port, () => { console.log(`Example app listening at http://localhost:${port}`) });
